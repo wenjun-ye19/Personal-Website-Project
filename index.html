@@ -1,68 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="assets/images/my-favicon.jpg" />
     <title>My Resume</title>
   </head>
+
   <body>
-    <h1>Wenjun Ye</h1>
-    <h3><a href="./public/contact.html">Contact Me</a></h3>
-    <img src=" ./assets/images/resume-photo.jpg" alt="resume photo" height="175">
-    <h2>Summary</h2>
-    <p>Graduated from Singapore Polytechnic with a Diploma in Aeronautical Engineering. Through my diploma study, I am competent in AutoCAD, CATIA, parts fabrication and aircraft design. I do some coding on the side, using Python and C++. I am currently learning HTML so I can make a website. I would describe myself as a responsible, open-minded, and resourceful individual who will be a value addition to any organisation.</p>
-    <hr />
-    <h2>Education</h2>
-    <ul>
-        <li>Singapore Polytechnic (2019 - 2022) <br/> Diploma in Aeronautical Engineering</li>
-        <ul>
-            <li>Modules studied: Engineering Maths, Mechanics, Thermodynamics, Computer Aided Design, Aerodynamics, Aircraft Structures and Powerplants</li>
-            <li>School Club: Singapore Polytechnic Astronomers' Club</li>
-        </ul>
-        <li>Yuhua Secondary School (2015 - 2018)</li>
-        <ul>
-            <li>Subjects studied: English, Maths, Additional Maths, Physics, Chemistry, History</li>
-            <li>School Club: National Cadet Corps</li>
-      </ul>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <ul>
-        <li>Full Time National Serviceman - Admin Support Assistant (Oct 2022 - Present) <br /> Singapore Armed Forces</li>
-        <ul>
-            <li>Serving the military for 2 years as a clerk</li>
-        </ul>
-        <li>Engineering Assistant Intern (Sep 2021 - Feb 2022) <br /> Ichor Systems Pte Ltd</li>
-        <ul>
-            <li>Assembled and tested 1-5 systems per day according to schematics and mechanical drawings</li>
-            <li>Performed housekeeping and complied with manufacturing discipline and cleanroom protocol</li>
-            <li>Solved any unexpected problems from the assembly line</li>
-        </ul>
-        <li>Part Time Retail Assistant (Nov 2018 - Mar 2019) <br /> Takashimaya Department Store</li>
-        <ul>
-            <li>Greeted and served hundreds of customers</li>
-            <li>Ensured customers are well-informed on any current sales, rewards programs, and store return policy</li>
-            <li>Processed payment by using cash register, credit card machines, and POS (point of sale) computer system</li>
-        </ul>
-    </ul>
-    <hr />
-    <h2>Skills</h2>
-    <ul>
-        <li>Technical Skills: AutoCAD, Aeronautics, CATIA, C, C++, HTML, Microsoft Office, Python</li>
-        <li>Soft Skills: Communication, Teamwork, Conflict Management</li>
-    </ul>
-    <hr />
-    <h2>Achievements</h2>
-    <ul>
-        <li>Edusave Award For Achievement, Good Leadership and Service (EAGLES) <br /> Awarded in 2018</li>
-        <li>Edusave Scholarship <br /> Awarded in 2015, 2016, 2017, 2018</li>
-        <li>Honourable Mention for Singapore Junior Physics Olympiad <br /> Awarded in 2017, 2018</li>
-    </ul>
-    <hr />
-    <h3><a href="./public/hobbies.html">Hobbies</a></h3>
-    <hr />
-    <footer>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. <br /> 2023 Wenjun Ye
-    </footer>
+    <div class="top">
+      <nav class="nav">
+        <p>
+          <a href="./pages/hobbies.html" target="_blank" class="nav-tabs"
+            >Hobbies</a
+          >
+        </p>
+        <p>
+          <a
+            href="./pages/contact.html"
+            target="_blank"
+            class="nav-tabs"
+            title="To find my contact"
+            >Contact Me</a
+          >
+        </p>
+        <p>Projects (Coming Soon)</p>
+      </nav>
+      <header class="header">
+        <h1>Wenjun Ye</h1>
+        <img
+          src=" ./assets/images/resume-photo.jpg"
+          alt="resume photo"
+          class="photo1"
+        />
+      </header>
+
+      <main>
+        <div class="summary">
+          <h2 class="sub-title">Summary</h2>
+          <p class="summary-text">
+            Competent in AutoCAD, CATIA, parts fabrication and aircraft design.
+            I can also do some coding, using Python and C++. I am currently
+            learning HTML & CSS so I can make a website. I would describe myself
+            as a responsible, open-minded, and resourceful individual who will
+            be a value addition to any organisation.
+          </p>
+        </div>
+
+        <div class="education">
+          <h2>Education</h2>
+          <ul class="school">
+            <li>Singapore Polytechnic (2019 - 2022)</li>
+            <li class="cert">Diploma in Aeronautical Engineering</li>
+            <li>Yuhua Secondary School (2015 - 2018)</li>
+            <li class="cert">GCE O'Level</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>
+              Military Service - Admin Support Assistant (Oct 2022 - Present)
+            </li>
+            <li class="company">Singapore Armed Forces</li>
+            <li>Engineering Assistant Intern (Sep 2021 - Feb 2022)</li>
+            <li class="company">Ichor Systems Pte Ltd</li>
+            <li>Part Time Retail Assistant (Nov 2018 - Mar 2019)</li>
+            <li class="company">Takashimaya Department Store</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              Technical Skills: AutoCAD, Aeronautics, CATIA, C, C++, HTML & CSS,
+              Microsoft Office, Python
+            </li>
+            <li>Soft Skills: Communication, Teamwork, Conflict Management</li>
+          </ul>
+        </div>
+
+        <div class="achievements">
+          <h2>Achievements</h2>
+          <ul>
+            <li>
+              Edusave Award For Achievement, Good Leadership and Service
+              (EAGLES)
+              <br />
+              Awarded in 2018
+            </li>
+            <li>
+              Edusave Scholarship <br />
+              Awarded in 2015, 2016, 2017, 2018
+            </li>
+            <li>
+              Honourable Mention for Singapore Junior Physics Olympiad <br />
+              Awarded in 2017, 2018
+            </li>
+          </ul>
+        </div>
+      </main>
+
+      <footer>
+        <a
+          rel="license"
+          href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          target="_blank"
+          ><img
+            alt="Creative Commons License"
+            style="border-width: 0"
+            src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a
+        ><br />This work is licensed under a
+        <a
+          rel="license"
+          href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          target="_blank"
+          class="linked-page"
+          >Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+          International License</a
+        >. <br />
+        2023 Wenjun Ye
+      </footer>
+    </div>
   </body>
 </html>
