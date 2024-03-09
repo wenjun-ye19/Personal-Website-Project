@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  color: #000;
+  background-color: #14204e;
+}
+
+.top {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #d7d7d7;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #949494;
+  padding: 5px;
+}
+
+.nav-tabs:link,
+.nav-tabs:visited {
+  color: #051cb6;
+  text-decoration: none;
+}
+
+.nav-tabs:hover {
+  background-color: #dfdfe2;
+  color: #195622;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 30px;
+  border-bottom: 5px solid #6696b4;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+.photo1 {
+  border-radius: 50%;
+}
+
+.summary,
+.education,
+.experience,
+.skills,
+.achievements {
+  border-bottom: #4c2e2e solid 1px;
+}
+
+.achievements {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+.summary-text {
+  background-color: #afafaf;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+  padding: 5px;
+}
+
+.cert,
+.company {
+  margin: 5px 0;
+  list-style: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.linked-page:link,
+.linked-page:visited {
+  text-decoration: none;
+}
+
+.linked-page:hover,
+.linked-page:active {
+  text-decoration: underline solid red;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+}
