@@ -5,125 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/jpg" href="assets/images/my-favicon.jpg" />
-    <title>My Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Website of Wenjun Ye</title>
   </head>
 
   <body>
-    <div class="top">
-      <nav class="nav">
-        <p>
-          <a href="./pages/hobbies.html" target="_blank" class="nav-tabs"
-            >Hobbies</a
-          >
-        </p>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="top" class="welcome-section">
+      <h1>Hi, I am Wenjun</h1>
+      <h2>Upcoming Mechanical Engineering Student</h2>
+    </section>
+
+    <div id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I have a strong interest in the STEM field and hence, in 2019, I
+        enrolled in the Diploma of Aeronautical Engineering offered by Singapore
+        Polytechnic. I graduated in 2022, and went on to serve 2 years in the
+        military. In 2024, I will be pursuing a Bachelor of Engineering in
+        Mechanical Engineering at Singapore Institute of Technology (SIT)
+      </p>
+    </div>
+
+    <div id="skills" class="skill-section">
+      <h2>What I can do</h2>
+      <ul>
+        <li>CAD software (AutoCAD, CATIA)</li>
+        <li>Coding (C, C++, Python)</li>
+        <li>Web Design</li>
+        <li>Microsoft Office</li>
+      </ul>
+    </div>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-heading">
+        <h2>Contact me.</h2>
+        <p>Cheers to working together!</p>
+      </div>
+      <div class="contact-body">
+        <a
+          id="profile-link"
+          class="contact-link github-link"
+          target="_blank"
+          href="https://github.com/wenjun-ye19"
+          ><i class="fa fa-github"></i> Github</a
+        >
+        <a
+          id="profile-link"
+          class="contact-link linkedin-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/wenjun-ye/"
+          ><i class="fa fa-linkedin-square"></i> Linkedin</a
+        >
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer>
+        <button class="return-top" type="button">
+          <a href="#top">Back to top</a>
+        </button>
         <p>
           <a
-            href="./pages/contact.html"
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
             target="_blank"
-            class="nav-tabs"
-            title="To find my contact"
-            >Contact Me</a
-          >
+            ><img
+              alt="Creative Commons License"
+              style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+          /></a>
         </p>
-        <p>Projects (Coming Soon)</p>
-      </nav>
-      <header class="header">
-        <h1>Wenjun Ye</h1>
-        <img
-          src=" ./assets/images/resume-photo.jpg"
-          alt="resume photo"
-          class="photo1"
-        />
-      </header>
-
-      <main>
-        <div class="summary">
-          <h2 class="sub-title">Summary</h2>
-          <p class="summary-text">
-            Competent in AutoCAD, CATIA, parts fabrication and aircraft design.
-            I can also do some coding, using Python and C++. I am currently
-            learning HTML & CSS so I can make a website. I would describe myself
-            as a responsible, open-minded, and resourceful individual who will
-            be a value addition to any organisation.
-          </p>
-        </div>
-
-        <div class="education">
-          <h2>Education</h2>
-          <ul class="school">
-            <li>Singapore Polytechnic (2019 - 2022)</li>
-            <li class="cert">Diploma in Aeronautical Engineering</li>
-            <li>Yuhua Secondary School (2015 - 2018)</li>
-            <li class="cert">GCE O'Level</li>
-          </ul>
-        </div>
-
-        <div class="experience">
-          <h2>Work Experience</h2>
-          <ul>
-            <li>
-              Military Service - Admin Support Assistant (Oct 2022 - Present)
-            </li>
-            <li class="company">Singapore Armed Forces</li>
-            <li>Engineering Assistant Intern (Sep 2021 - Feb 2022)</li>
-            <li class="company">Ichor Systems Pte Ltd</li>
-            <li>Part Time Retail Assistant (Nov 2018 - Mar 2019)</li>
-            <li class="company">Takashimaya Department Store</li>
-          </ul>
-        </div>
-
-        <div class="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>
-              Technical Skills: AutoCAD, Aeronautics, CATIA, C, C++, HTML & CSS,
-              Microsoft Office, Python
-            </li>
-            <li>Soft Skills: Communication, Teamwork, Conflict Management</li>
-          </ul>
-        </div>
-
-        <div class="achievements">
-          <h2>Achievements</h2>
-          <ul>
-            <li>
-              Edusave Award For Achievement, Good Leadership and Service
-              (EAGLES)
-              <br />
-              Awarded in 2018
-            </li>
-            <li>
-              Edusave Scholarship <br />
-              Awarded in 2015, 2016, 2017, 2018
-            </li>
-            <li>
-              Honourable Mention for Singapore Junior Physics Olympiad <br />
-              Awarded in 2017, 2018
-            </li>
-          </ul>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          rel="license"
-          href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-          target="_blank"
-          ><img
-            alt="Creative Commons License"
-            style="border-width: 0"
-            src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a
-        ><br />This work is licensed under a
-        <a
-          rel="license"
-          href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-          target="_blank"
-          class="linked-page"
-          >Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-          International License</a
-        >. <br />
-        2023 Wenjun Ye
+        <p>
+          This work is licensed under a
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            target="_blank"
+            class="linked-page"
+            >Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+            International License</a
+          >.
+        </p>
+        <p>2024 Wenjun Ye</p>
       </footer>
-    </div>
+    </section>
   </body>
 </html>
